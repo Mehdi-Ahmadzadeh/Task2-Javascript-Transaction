@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>تسک دوره جاوااسکریپت</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="header">
+        <div>لیست تراکنش ها</div>
+        <div>
+          <form class="search__transactions hidden" action="">
+            <input class="search__input" placeholder="جستجوی تراکنش ..." type="text">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </form>
+        </div>
+      </div>
+      <div class="content">
+        <button>بارگذاری تراکنش ها</button>
+      </div>
+      <div class="transaction__list hidden">
+        <div>
+          <div>
+            <h1>لیست تراکنش های شما</h1>
+          </div>
+          <div class="transaction__table">
+            <table class="table">
+              <tr>
+                <th>ردیف</th>
+                <th>نوع تراکنش</th>
+                <th>
+                  <p>مبلغ</p>
+                  <div class="fas">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <th>شماره پیگیری</th>
+                <th class="date__col">
+                  <p>تاریخ تراکنش</p>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>برداشت</td>
+                <td>100000</td>
+                <td>68765454</td>
+                <td>25/8/2025</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>برداشت</td>
+                <td>100000</td>
+                <td>68765454</td>
+                <td>25/8/2025</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
